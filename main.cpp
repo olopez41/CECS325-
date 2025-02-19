@@ -71,16 +71,16 @@ int main() {
 
 
 
-std::cout<<"not_switch_correct_counter: "<<not_switch_correct_counter<<std::endl;
-    std::cout<<"not_switch_incorrect_counter: "<<not_switch_incorrect_counter<<std::endl;
-    std::cout<<"switch_correct_counter: "<<switch_correct_counter<<std::endl;
-    std::cout<<"switch_incorrect_counter: "<<switch_incorrect_counter<<std::endl;
+std::cout<<"not switching correct counter: "<<not_switch_correct_counter<<std::endl;
+    std::cout<<"not switching incorrect counter: "<<not_switch_incorrect_counter<<std::endl;
+    std::cout<<"switching correct counter: "<<switch_correct_counter<<std::endl;
+    std::cout<<"switching incorrect counter: "<<switch_incorrect_counter<<std::endl;
 
-    std::cout<<""<<std::setprecision(2)<<wins_not_switch<<losses_not_switch<<wins_switchting<<losses_switching<<std::endl;//sets the percisions
-    std::cout<<"wins_not_switch: "<<wins_not_switch<<std::endl;
-    std::cout<<"losses_not_switch: "<<losses_not_switch<<std::endl;
-    std:: cout<<"wins_switchting:"<<wins_switchting<<std::endl;
-    std::cout<<"losses_switching:"<<losses_switching<<std::endl;
+    std::cout<<""<<std::setprecision(2)<<wins_not_switch<< " " << losses_not_switch<<wins_switchting<<losses_switching<<std::endl;//sets the percisions
+    std::cout<<""<<"wins not switching: "<< std::setprecision(2)<<" " << wins_not_switch<<std::endl;
+    std::cout<<""<<"losses not switching: "<< std::setprecision(2)<<" " << losses_not_switch<<std::endl;
+    std:: cout<<""<<"wins with switching:"<< std::setprecision(2)<< " " <<wins_switchting<<std::endl;
+    std::cout<<""<<"losses with switching:"<<std::setprecision(2)<<" "  <<losses_switching<<std::endl;
 
 
 return 0;
